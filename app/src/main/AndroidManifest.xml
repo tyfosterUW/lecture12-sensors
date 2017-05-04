@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="edu.uw.sensordemo">
 
+    <uses-feature android:name="android.hardware.sensor.acceleromter"
+        android:required="true" />
+
 
 
     <application
